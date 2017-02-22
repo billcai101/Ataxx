@@ -1,0 +1,5 @@
+    gcc -o foo.c foo.d
+    gcc -o foo.c foo.h
+    gcc -o foo.y foo.c
+    gcc -o foo.o foo.y
+    gcc -o foo foo.o

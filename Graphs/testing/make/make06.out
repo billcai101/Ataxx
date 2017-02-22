@@ -1,0 +1,1 @@
+    yacc -o foo.z foo.z

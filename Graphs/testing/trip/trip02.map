@@ -1,0 +1,16 @@
+L Licorice_Castle 0.0 0.0
+L Lollipop_Woods 30.0 30.0
+L Gingerbread_Plum_Trees 32.0 -29.0
+L Molasses_Swamp 74.0 3.0
+L Peppermint_Forest 84.0 20.0
+L Gumdrop_Mountains 171.0 16.0
+L Candy_Castle 172.0 0
+
+R Licorice_Castle R1 59 EW Lollipop_Woods
+R Licorice_Castle R2 63 EW Gingerbread_Plum_Trees
+R Lollipop_Woods R3 85 EW Molasses_Swamp
+R Gingerbread_Plum_Trees R4 79 EW Molasses_Swamp
+R Molasses_Swamp R5 33 EW Peppermint_Forest
+R Peppermint_Forest R6 89 EW Gumdrop_Mountains
+R Gumdrop_Mountains R7 14 NS Candy_Castle
+R Molasses_Swamp R8 114 EW Candy_Castle
