@@ -1,0 +1,20 @@
+# Tests the clear function.
+java -ea ataxx.Main
+block c3
+a7-a6
+a1-a2
+a6-a5
+g7-g6
+a1-a2
+clear
+a7-a6
+dump
+@<===
+@<  r - - - - - b
+@<  r - - - - - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  b - - - - - r
+@<===

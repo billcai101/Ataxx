@@ -1,0 +1,30 @@
+# Test that 25 jumps will end the game
+java -ea ataxx.Main
+g1-f1
+a1-a3
+a7-a5
+g7-g5
+g1-g3
+a3-a1
+a5-a7
+g5-g7
+g3-g1
+a1-a3
+a7-a5
+g7-g5
+g1-g3
+a3-a1
+a5-a7
+g5-g7
+g3-g1
+a1-a3
+a7-a5
+g7-g5
+g1-g3
+a3-a1
+a5-a7
+g5-g7
+g3-g1
+a1-a3
+start
+@red...Red wins\.

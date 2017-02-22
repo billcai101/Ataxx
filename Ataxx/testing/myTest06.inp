@@ -1,0 +1,36 @@
+#Tests the pass function to see if it works
+java -ea ataxx.Main
+block c3
+block c4
+block d3
+block b2
+block c2
+block d2
+a7-b5
+a1-b3
+b5-d4
+b3-b4
+g1-e1
+b4-b5
+e1-g1
+g7-f5
+g1-e1
+f5-f4
+e1-g1
+f4-f3
+g1-e1
+f3-g3
+e1-g1
+g3-g2
+pass
+g1-f1
+dump
+@<===
+@<  - - - - - - -
+@<  - X X X X X -
+@<  - b X X X b -
+@<  - b X r X b -
+@<  - b X X X b b
+@<  - X X X X X b
+@<  - - - - - b b
+@<===

@@ -1,0 +1,13 @@
+# This is one of the autograder tests. It fails in the autograder, but manually inputting the load command gets the same output.
+java -ea ataxx.Main
+load testing/test005.in
+@<===
+@<  r - - - - - -
+@<  r X - - - X -
+@<  - - X - X b -
+@<  - - X - X - -
+@<  - - X - X - -
+@<  - X - - - X -
+@<  b - - - - - r
+@<===
+quit

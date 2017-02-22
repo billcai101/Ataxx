@@ -1,0 +1,45 @@
+# Test that if you extend between jumps that game won't end.
+java -ea ataxx.Main
+g1-f1
+a1-a3
+a7-a5
+g7-g5
+g1-g3
+a3-a1
+a5-a7
+g5-g7
+g3-g1
+a1-a3
+a7-a5
+g7-g5
+g1-g3
+a3-a1
+a5-a7
+g5-g7
+g3-g1
+a1-a3
+a7-a5
+g7-g5
+g1-g3
+a3-a1
+a5-a7
+g5-g7
+f1-e1
+g3-g1
+a1-a3
+a7-a5
+a3-a1
+a5-a7
+a1-a3
+a7-a5
+a3-a1
+dump
+@<===
+@<  - - - - - - b
+@<  - - - - - - -
+@<  r - - - - - -
+@<  - - - - - - -
+@<  - - - - - - r
+@<  - - - - - - -
+@<  b - - - r r -
+@<===

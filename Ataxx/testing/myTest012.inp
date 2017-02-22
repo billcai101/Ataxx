@@ -1,0 +1,44 @@
+# Tests that clearing resets the jump counter
+java -ea ataxx.Main
+a7-a5
+a1-a3
+a5-a7
+a3-a1
+a7-a5
+a1-a3
+a5-a7
+a3-a1
+a7-a5
+a1-a3
+a5-a7
+a3-a1
+a7-a5
+a1-a3
+a5-a7
+a3-a1
+a7-a5
+a1-a3
+a5-a7
+a3-a1
+a7-a5
+a1-a3
+a5-a7
+a3-a1
+clear
+manual blue
+start
+a7-a5
+a1-a3
+g1-g3
+g7-g5
+dump
+@<===
+@<  - - - - - - -
+@<  - - - - - - -
+@<  r - - - - - b
+@<  - - - - - - -
+@<  b - - - - - r
+@<  - - - - - - -
+@<  - - - - - - -
+@<===
+quit

@@ -1,0 +1,14 @@
+# A simple test for the AI
+java -ea ataxx.Main
+a7-a5
+a1-b3
+g1-f1
+g7-e5
+f1-e1
+e5-c5
+e1-d3
+b3-b5
+auto red
+start
+@red...Red wins\.
+quit

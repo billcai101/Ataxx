@@ -1,0 +1,15 @@
+#Tests that you can't place blocks after a move has been made
+java -ea ataxx.Main
+block c3
+a7-b6
+block c4
+dump
+@<===
+@<  r - - - - - b
+@<  - r - - - - -
+@<  - - X - X - -
+@<  - - - - - - -
+@<  - - X - X - -
+@<  - - - - - - -
+@<  b - - - - - r
+@<===

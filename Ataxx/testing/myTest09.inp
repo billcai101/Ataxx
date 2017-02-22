@@ -1,0 +1,15 @@
+#Tests that moves can't be put on blocks
+java -ea ataxx.Main
+block c3
+a7-c5
+a7-b6
+dump
+@<===
+@<  r - - - - - b
+@<  - r - - - - -
+@<  - - X - X - -
+@<  - - - - - - -
+@<  - - X - X - -
+@<  - - - - - - -
+@<  b - - - - - r
+@<===
