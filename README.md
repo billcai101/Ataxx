@@ -7,3 +7,5 @@ Graphs is just a project demonstrating graph concepts such as breadth first trav
 Twitter contest bot is an automated bot that can follow and retweet using the TWIT api to make post and get requests.
 
 SEC crawler is a scraper written in Python that uses the BeautifulSoup module to download files directly from the SEC website.
+
+Reinforcement is a project done in my Artificial Intelligence in which I implemented reinforcement learning for a pacman game.
